@@ -1,3 +1,4 @@
 streamlit
 pandas
-tabula
+tabula-py
+openpyxl
