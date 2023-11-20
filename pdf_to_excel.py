@@ -18,5 +18,4 @@ if data != None:
                         file_name='output.csv',
                         mime='text/csv',
                         )
-else:
-     st.text('PDFをアップロードしてください。')
+
