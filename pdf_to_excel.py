@@ -4,6 +4,7 @@ import streamlit as st
 import openpyxl
 
 st.title('PDF to CSV アプリ')
+st.text('PDF内の表を読み取り、CSVに変換します')
 data = st.file_uploader('PDFファイルをアップロードしてください。')
 if data != None:
     dfx = tabula.io.read_pdf(data,lattice=True,pages='all')
